@@ -1,6 +1,5 @@
 # video-manage-platform
 
-前端页面 http://os-open.videojj.com/#/login
 
 OS系统主要技术与规范：
 
