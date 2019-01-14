@@ -21,8 +21,9 @@ OS系统主要技术与规范：
 
 9、mqtt服务主要使用的是emqtt
 
+10、服务端对视频长度读取采用ffmpeg
 
-
+11、平台和 api应用的交互使用rabbitmq消息中间件
 后端部署指南
 
 一、准备工作
@@ -125,7 +126,9 @@ CDN服务，我司video++会提供相应的服务，具体可以联系我司，�
 6、打包
 
 打包方式可以使用maven，主要两个jar包，一个是videoportal-1.0.jar（后端控制台），还有一个是videopublicapi-1.0.jar（提供给移动端的接口）。。。。
+7、运行环境安装ffmpeg
 
+8、rabbitmq安装
  
 
 三、运行参数
